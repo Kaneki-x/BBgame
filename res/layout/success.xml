@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="290dp"
+    android:background="@drawable/game_success" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/gold_ball" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/gold_ball" />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/button2"
+        android:background="@drawable/gold_ball" />
+    <TextView 
+        android:id="@+id/points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="175dp"/>
+
+    <Button
+        android:id="@+id/game_success_restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+  		android:layout_marginLeft="16dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/game_success_restart_on" />
+
+      <Button
+          android:id="@+id/game_success_level"
+          android:layout_width="100dp"
+          android:layout_height="100dp"
+          android:layout_marginLeft="105dp"
+        android:layout_marginTop="200dp"
+          android:background="@drawable/game_success_level_on" />
+
+      <Button
+          android:id="@+id/game_success_next"
+          android:layout_width="100dp"
+          android:layout_height="100dp"
+          android:layout_marginLeft="195dp"
+          android:layout_marginTop="200dp"
+          android:background="@drawable/game_success_next_on" />
+
+</RelativeLayout>

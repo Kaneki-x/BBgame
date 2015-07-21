@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/pause_back">
+
+	<Button
+	    android:id="@+id/button_level"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_x="157dp"
+	    android:layout_y="62dp"
+	    android:background="@drawable/button_level_on" />
+
+	<Button
+	    android:id="@+id/button_restart"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_x="86dp"
+	    android:layout_y="123dp"
+	    android:background="@drawable/button_restart_on" />
+
+	<Button
+	    android:id="@+id/button_jixu"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_x="7dp"
+	    android:layout_y="88dp"
+	    android:background="@drawable/button_jixu_on" />
+
+</AbsoluteLayout>
